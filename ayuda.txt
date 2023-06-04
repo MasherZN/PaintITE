@@ -1,0 +1,39 @@
+# Comandos 
+
+# Comando para cambiar el color de fondo
+# Uso: fondo R G B
+# donde R, G y B son valores enteros en el rango de 0 a 255 que representan los componentes de color rojo, verde y azul respectivamente.
+fondo R G B
+
+# Comando para dibujar una línea horizontal
+# Uso: linea -h x y longitud
+# donde x e y son las coordenadas de inicio de la línea y longitud es la longitud de la línea en píxeles.
+linea -h x y longitud
+
+# Comando para dibujar una línea vertical
+# Uso: linea -v x y longitud
+# donde x e y son las coordenadas de inicio de la línea y longitud es la longitud de la línea en píxeles.
+linea -v x y longitud
+
+# Comando para dibujar un círculo
+# Uso: circulo x_centro y_centro radio
+# donde x_centro e y_centro son las coordenadas del centro del círculo y radio es el radio del círculo en píxeles.
+circulo x_centro y_centro radio
+
+# Comando para dibujar un triángulo
+# Uso: triangulo tipo [parámetros]
+# donde tipo puede ser "equilatero", "escaleno" o "isosceles" y los parámetros dependen del tipo de triángulo:
+# - Equilátero: ejx ejy lado
+# - Escaleno: ex1 ey1 ex2 ey2 ex3 ey3
+# - Isósceles: ejx ejy base altura
+triangulo tipo [parámetros]
+
+# Comando para dibujar un cuadrado
+# Uso: cuadrado x y lado
+# donde x e y son las coordenadas de la esquina superior izquierda del cuadrado y lado es la longitud del lado del cuadrado en píxeles.
+cuadrado x y lado
+
+# Comando para dibujar un rectángulo
+# Uso: rectangulo x y ancho alto
+# donde x e y son las coordenadas de la esquina superior izquierda del rectángulo, ancho es el ancho del rectángulo en píxeles y alto es la altura del rectángulo en píxeles.
+rectangulo x y ancho alto

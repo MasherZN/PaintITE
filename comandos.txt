@@ -1,0 +1,19 @@
+# Ejemplo de archivo de comandos
+# Comando para establecer el color de fondo
+fondo 255 255 255
+# Comando para dibujar una línea horizontal
+linea -h 100 200 300
+# Comando para dibujar una línea vertical
+linea -v 300 200 300
+# Comando para dibujar un círculo
+circulo 225 246 30
+# Comando para dibujar un triángulo equilátero
+triangulo equilatero 300 100 100
+# Comando para dibujar un triángulo escaleno
+triangulo escaleno 700 200 450 600 650 400
+# Comando para dibujar un triángulo isósceles
+triangulo isosceles 700 300 100 150
+# Comando para dibujar un cuadrado
+cuadrado 100 400 100
+# Comando para dibujar un rectángulo
+rectangulo 250 400 150 100
